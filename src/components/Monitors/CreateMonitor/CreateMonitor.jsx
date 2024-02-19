@@ -3,7 +3,7 @@ import React from 'react'
 export default function CreateMonitor() {
   return (
   <div className='mr-20'>
-        <div className="lg:flex">
+        <div className="lg:flex ">
     
     <div className="lg:w-2/6">
     <h5 className='text-1xl lg:text-2xl font-extrabold my-4'>Web Monitor</h5>

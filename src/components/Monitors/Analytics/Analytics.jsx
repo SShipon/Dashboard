@@ -6,12 +6,14 @@ import more from "../../../assets/logo/+ MORE.png";
 import CreateMonitor from "../CreateMonitor/CreateMonitor";
 export default function Analytics() {
   return (
-    <div className="ml-10 shadow p-10">
+    <div className=" flex flex-col flex-wrap shadow p-4 ">
       <div className="my-4">
         <CreateMonitor />
       </div>
-      <div class="relative overflow-x-auto  sm:rounded-lg">
-        <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+
+     <div className="lg:w-full w-[340px] ">
+     <div class=" overflow-x-auto  sm:rounded-lg">
+        <table class="text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
           <thead class="text-xs text-gray-700 uppercase border-b ">
             <tr>
               <th scope="col" class="px-6 py-3">
@@ -60,7 +62,7 @@ export default function Analytics() {
                     <img src={china} alt="" />
                   </div>
                   <div className="absolute z-10 ml-6">
-                    <img src={canada} alt="" />
+                    <img  className="w-[100%]" src={canada} alt="" />
                   </div>
                 </div>
               </td>
@@ -100,17 +102,17 @@ export default function Analytics() {
                 <div className="flex item-center">
                   <div className="relative left-1 ">
                     {" "}
-                    <img src={china} alt="" />
+                    <img  className="w-[100%]" src={china} alt="" />
                   </div>
                   <div className="absolute z-10 ml-4">
-                    <img src={africa} alt="" />
+                    <img  className="w-[100%]" src={africa} alt="" />
                   </div>
                   <div className="absolute z-10 ml-8">
                     <img src={canada} alt="" />
                   </div>
                   <div className="flex">
                     <div className="absolute ml-10 mt-2">
-                      <img src={more} alt="" />
+                      <img  className="w-[100%]" src={more} alt="" />
                     </div>
                   </div>
                 </div>
@@ -152,7 +154,7 @@ export default function Analytics() {
               <td class="px-6 py-4">
                 <div className="flex relative item-center">
                   <div className="absolute -top-4 ml-4">
-                    <img src={canada} alt="" />
+                    <img className="w-[100%]" src={canada} alt="" />
                   </div>
                 </div>
               </td>
@@ -269,14 +271,17 @@ export default function Analytics() {
           </tbody>
         </table>
       </div>
+     </div>
+
+      
       <div>
-        <div className="my-4 flex items-center justify-between">
-          <div className="">
-            <span className="text-gray-300 text-xs">
+        <div className="my-4 flex lg:flex-row flex-col items-center justify-between">
+          <div className="relative">
+            <span className="text-gray-300 text-xs my-4 lg:my-0">
               Showing data 1 to 8 of 256K entries
             </span>
           </div>
-          <div className="flex gap-4">
+          <div className="flex gap-1 lg:gap-4 absolute  lg:right-[160px]">
             <div>
               <button className="btn host-btn btn-sm">
                 <i class="fa-solid fa-angle-left"></i>

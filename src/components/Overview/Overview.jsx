@@ -18,7 +18,7 @@ export default function Overview() {
       </div>
        <Banner />
         <Meta></Meta>
-        <ChartCart/> 
+      
       <div className="my-8">
         {/* <Rechart /> */}
       </div>

@@ -6,7 +6,7 @@ import ContentTop from "../ContentTop/ContentTop";
 
 export default function Monitors() {
   return (
-    <div className="main-content">
+    <div className="main-content overflow-x-hidden">
       <ContentTop />
       <div className="relative">
         <hr

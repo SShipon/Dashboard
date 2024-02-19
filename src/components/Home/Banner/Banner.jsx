@@ -4,13 +4,13 @@ import wealth from '../../../assets/Banner/wealth-creation (3).png'
 export default function Banner() {
   return (
     
-    <div class="grid lg:grid-cols-3 sm:grid-cols-2 gap-4 items-center ">
+    <div class="grid lg:grid-cols-3 sm:grid-cols-2 gap-4 items-center">
 
-<div class="col-span-2">
+<div class="col-span-2 gap-2">
 <div className='flex-1 md:flex-2/3 mb-4 md:mb-0'>
- <div className='flex justify-between sm:p-4 p-8 shadow-xl rounded-2xl '>
+ <div className='flex justify-between lg:p-4  sm:p-0  shadow-xl rounded-2xl '>
    <div className='font-bold text-xl pt-8 pl-5 relative'>
-     Welcome X
+     <span className='lg:text-4xl text-xs'>Welcome X</span>
      <p className='absolute bottom-2 text-3xl font-bold'>&rarr;</p>
    </div>
    <div>
@@ -21,13 +21,13 @@ export default function Banner() {
 </div>
 
 </div>
-    <div class="lg:col-span-1 col-span-2 ">
-    <div className='text-white rounded-2xl relative shadow-2xl '>
-          <img src={wealth} alt="wealth-creation" className='w-[100%] h-[auto]' />
+    <div class="lg:col-span-1 col-span-2 shadow-2xl lg:p-4 rounded-2xl p-2  ">
+    <div className='text-white rounded-2xl relative  '>
+          <img src={wealth} alt="wealth-creation" className='lg:w-[1000px] lg:h-[220px] w-[100%] h-[auto]' />
           <div className='absolute left-4 top-2 px-2'>
             <h3 className='font-bold text-xl pb-2'>Lorem</h3>
             <p>Lorem ipsum bla bla</p>
-            <p className='font-semibold absolute lg:-bottom-24 -bottom-32 text-lg mt-2'>Read More &rarr;</p>
+            <p className='font-semibold absolute lg:-bottom-24 sm-bottom-32 text-lg mt-2'>Read More &rarr;</p>
           </div>
         </div>
  
