@@ -4,8 +4,8 @@ import wealth from '../../../assets/Banner/wealth-creation (3).png'
 export default function Banner() {
   return (
     
-    <div class="grid lg:grid-cols-3 sm:grid-cols-2 gap-4 items-center">
-
+    <div className='mt-10'>
+        <div class="grid lg:grid-cols-3 sm:grid-cols-2 gap-4 items-center">
 <div class="col-span-2 gap-2">
 <div className='flex-1 md:flex-2/3 mb-4 md:mb-0'>
  <div className='flex justify-between lg:p-4  sm:p-0  shadow-xl rounded-2xl '>
@@ -33,6 +33,7 @@ export default function Banner() {
  
       </div>
 
+    </div>
     </div>
    
     

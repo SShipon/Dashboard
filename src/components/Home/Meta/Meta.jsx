@@ -10,7 +10,7 @@ import google_cloud from "../../../assets/Banner/google-cloud.png";
 import right_arrow from "../../../assets/Banner/right-arrow.png";
 export default function Meta() {
   return (
-    <div className="my-6">
+    <div className="mt-10">
           <div className="lg:flex">
       <div class="lg:flex lg:flex-row gap-8 items-center">
       <div class="lg:basis-1/4">

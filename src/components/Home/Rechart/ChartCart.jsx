@@ -4,7 +4,8 @@ import Rechart from "./Rechart";
 
 export default function ChartCart() {
   return (
-    <div className="lg:flex">
+   <div className="mt-10">
+         <div className="lg:flex">
     <div class="lg:flex lg:flex-row">
    <div class="lg:basis-1/3 shadow-2xl pl-4 pt-0 pr-4 pb-4 rounded-3xl">
   
@@ -44,6 +45,7 @@ export default function ChartCart() {
    </div>
    </div>
  </div>
+   </div>
 
   );
 }

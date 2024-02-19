@@ -1,7 +1,5 @@
 import React from "react";
 import ContentTop from "../ContentTop/ContentTop";
-import Rechart from "../Home/Rechart/Rechart";
-import DataMonitorUi from "../Monitors/DataMonitorUi/DataMonitorUi";
 import Banner from "../Home/Banner/Banner";
 import Meta from "../Home/Meta/Meta";
 import ChartCart from "../Home/Rechart/ChartCart";
@@ -19,9 +17,10 @@ export default function Overview() {
       </div>
        <Banner />
         <Meta></Meta>
+         <ChartCart/>
         <Recent />
       <div className="my-8">
-        {/* <Rechart /> */}
+       
       </div>
     </div>
   );
