@@ -5,10 +5,11 @@ import DataMonitorUi from "../Monitors/DataMonitorUi/DataMonitorUi";
 import Banner from "../Home/Banner/Banner";
 import Meta from "../Home/Meta/Meta";
 import ChartCart from "../Home/Rechart/ChartCart";
+import Recent from "../Home/Recent/Recent";
 
 export default function Overview() {
   return (
-    <div className="main-content">
+    <div className="main-content overflow-x-hidden">
       <ContentTop />
       <div className="relative">
         <hr
@@ -18,7 +19,7 @@ export default function Overview() {
       </div>
        <Banner />
         <Meta></Meta>
-      
+        <Recent />
       <div className="my-8">
         {/* <Rechart /> */}
       </div>
