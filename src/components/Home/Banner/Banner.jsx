@@ -27,7 +27,7 @@ export default function Banner() {
           <div className='absolute left-4 top-2 px-2'>
             <h3 className='font-bold text-xl pb-2'>Lorem</h3>
             <p>Lorem ipsum bla bla</p>
-            <p className='font-semibold absolute lg:-bottom-24 sm-bottom-32 text-lg mt-2'>Read More &rarr;</p>
+            <p className='font-semibold absolute lg:-bottom-36 -bottom-24 text-lg mt-2'>Read More &rarr;</p>
           </div>
         </div>
  

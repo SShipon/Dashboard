@@ -11,28 +11,30 @@ export default function Analytics() {
         <CreateMonitor />
       </div>
 
-     <div className="lg:w-full w-[340px] ">
-     <div class=" overflow-x-auto  sm:rounded-lg">
-        <table class="text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-          <thead class="text-xs text-gray-700 uppercase border-b ">
+      <div  className=" flex justify-between">
+      <div className="lg:w-full md:w-full w-[300px]">
+     <div className="overflow-x-auto">
+        <table class="table">
+          <thead class=" uppercase border-b ">
             <tr>
               <th scope="col" class="px-6 py-3">
-                <span className="text-black"> Status Monitor Name</span>
+                <span className=" text-sm"> Status </span>
+                <span>Monitor Name</span>
               </th>
               <th scope="col" class="px-6 py-3">
-                <span className="text-black"> Uptime</span>
+                <span className=""> Uptime</span>
               </th>
               <th scope="col" class="px-6 py-3">
-                <span className="text-black">Load Average</span>
+                <span className="">Load Average</span>
               </th>
               <th scope="col" class="px-6 py-3">
-                <span className="text-black"> Locations</span>
+                <span className=""> Locations</span>
               </th>
               <th scope="col" class="px-6 py-3">
-                <span className="text-black"> Type</span>
+                <span className=""> Type</span>
               </th>
               <th scope="col" class="px-6 py-3">
-                <span className="text-black">Frequency</span>
+                <span className="text-textColor">Frequency</span>
               </th>
             </tr>
           </thead>
@@ -272,16 +274,19 @@ export default function Analytics() {
         </table>
       </div>
      </div>
+      </div>
 
       
       <div>
-        <div className="my-4 flex lg:flex-row flex-col items-center justify-between">
-          <div className="relative">
-            <span className="text-gray-300 text-xs my-4 lg:my-0">
+        <div className="my-4 flex  lg:flex-row flex-col lg:justify-between ">
+
+          <div className="">
+            <span className="text-gray-300 text-xs text-center my-4 lg:my-0">
               Showing data 1 to 8 of 256K entries
             </span>
           </div>
-          <div className="flex gap-1 lg:gap-4 absolute  lg:right-[160px]">
+
+          <div className="flex gap-1 lg:gap-4">
             <div>
               <button className="btn host-btn btn-sm">
                 <i class="fa-solid fa-angle-left"></i>
@@ -316,6 +321,7 @@ export default function Analytics() {
               </button>
             </div>
           </div>
+
         </div>
       </div>
     </div>

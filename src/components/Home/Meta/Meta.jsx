@@ -49,7 +49,7 @@ export default function Meta() {
             </div>
             <div>
               <h6 className="font-bold pb-3">89%</h6>
-              <p className="text-red-600">1200ms &darr;</p>
+              <p className="text-rose-700">1200ms &darr;</p>
             </div>
           </div>
         </div>
@@ -70,7 +70,7 @@ export default function Meta() {
             </div>
             <div>
               <h6 className="font-bold pb-3">89%</h6>
-              <p className="text-red-600">1200ms &darr;</p>
+              <p className="text-rose-700">1200ms &darr;</p>
             </div>
           </div>
         </div>
@@ -79,10 +79,10 @@ export default function Meta() {
         <div className="md:w-1/3">
           <div className="flex justify-around gap-x-5 items-center">
             <div className="flex items-center gap-x-1.5">
-              <img src={meta_logo} alt="meta" />
+              <img src={microsoft_logo} alt="meta" />
               <h5 className="font-bold text-xl">Meta</h5>
             </div>
-            <img className="w-2/5" src={meta_cloud} alt="meta" />
+            <img className="w-2/5" src={microsoft_cloud} alt="meta" />
           </div>
           <div className="flex justify-around gap-x-3 pt-5">
             <div>
@@ -90,18 +90,19 @@ export default function Meta() {
               <div>Load Average</div>
             </div>
             <div>
-              <h6 className="font-bold pb-3">89%</h6>
-              <p className="text-red-600">1200ms &darr;</p>
+              <h6 className="font-bold pb-3">100%</h6>
+              <p className="text-red-600 text-emerald-500 ">250ms <span className="text-emerald-500">&darr;</span></p>
             </div>
           </div>
         </div>
         <div className="md:w-1/3">
           <div className="flex justify-around gap-x-5 items-center">
             <div className="flex items-center gap-x-1.5">
-              <img src={meta_logo} alt="meta" />
+              <img className="" src={google_logo} alt="meta" />
               <h5 className="font-bold text-xl">Meta</h5>
+            <img className="w-2/5 " src={google_cloud} alt="meta" />
+            <img className="w-2/5 " src={right_arrow} alt="meta" />
             </div>
-            <img className="w-2/5" src={meta_cloud} alt="meta" />
           </div>
           <div className="flex justify-around gap-x-3 pt-5">
             <div>
@@ -109,8 +110,8 @@ export default function Meta() {
               <div>Load Average</div>
             </div>
             <div>
-              <h6 className="font-bold pb-3">89%</h6>
-              <p className="text-red-600">1200ms &darr;</p>
+              <h6 className="font-bold pb-3">98.9%</h6>
+              <p className="text-rose-700">900ms &darr;</p>
             </div>
           </div>
         </div>
