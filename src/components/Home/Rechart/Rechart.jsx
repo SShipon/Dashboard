@@ -58,9 +58,9 @@ export default function Rechart() {
 
   return (
     <div className="my-8">
-      <div className="w-full">
-        <ResponsiveContainer width="100%" height={250}>
-          <LineChart width={780} height={250} data={data} margin={{}}>
+      <div className="w-full h-full">
+        {/* <ResponsiveContainer width="100%" height={250}> */}
+          <LineChart width={730} height={250} data={data} margin={{}}>
             <CartesianGrid strokeDasharray="3 3" />
             <XAxis dataKey="name" />
             <YAxis />
@@ -69,7 +69,7 @@ export default function Rechart() {
             <Line type="monotone" dataKey="pv" stroke="#8884d8" />
             <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
           </LineChart>
-        </ResponsiveContainer>
+        {/* </ResponsiveContainer> */}
       </div>
     </div>
   );

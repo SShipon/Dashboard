@@ -5,7 +5,12 @@ import calendar from "../assets/icon/Calendar.png";
 import notification from "../assets/icon/notification.png";
 import setting from "../assets/icon/setting.png";
 import menu from "../assets/icons/menu.svg";
-
+import meta_logo from "../assets/Banner/meta-logo.png";
+import meta_cloud from "../assets/Banner/meta-cloud.png";
+import microsoft_logo from "../assets/Banner/microsoft-logo.png";
+import microsoft_cloud from "../assets/Banner/microsoft-cloud.png";
+import google_logo from "../assets/Banner/google-logo.png";
+import google_cloud from "../assets/Banner/google-cloud.png";
 
 // person images
 import person_one from "../assets/images/person_one.jpg";
@@ -21,4 +26,8 @@ export const iconsImgs = {
 export const personsImgs = {
     mask,person_one, person_two, person_three, person_four
 };
+
+export const socialImgs = {
+    meta_logo, meta_cloud, microsoft_logo, microsoft_cloud, google_logo, google_cloud
+}
 

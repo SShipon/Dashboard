@@ -1,4 +1,4 @@
-import { iconsImgs } from "../utils/images";
+import { iconsImgs, socialImgs } from "../utils/images";
 import { personsImgs } from "../utils/images";
 export const navigationLinks = [
     { id: 1, title: 'Overview', image: iconsImgs.union },
@@ -142,4 +142,39 @@ export const savings = [
         date_taken: "23/12/22",
         amount_left: 40000
     }
+]
+
+export const socials = [
+  {
+    id: 28,
+    logo_image: socialImgs.meta_logo,
+    cloud_image: socialImgs.meta_cloud,
+    title: 'Meta',
+    uptime: 89,
+    average_loading_time: 1200
+  },
+  {
+    id: 29,
+    logo_image: socialImgs.meta_logo,
+    cloud_image: socialImgs.meta_cloud,
+    title: 'Meta',
+    uptime: 89,
+    average_loading_time: 1200
+  },
+  {
+    id: 30,
+    logo_image: socialImgs.microsoft_logo,
+    cloud_image: socialImgs.microsoft_cloud,
+    title: 'Microsoft',
+    uptime: 100,
+    average_loading_time: 250
+  },
+  {
+    id: 31,
+    logo_image: socialImgs.google_logo,
+    cloud_image: socialImgs.google_cloud,
+    title: 'Google',
+    uptime: 98.9,
+    average_loading_time: 900
+  },
 ]

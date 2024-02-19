@@ -6,7 +6,7 @@ export default function ChartCart() {
     <div className="mr-20">
       <div className="flex flex-col lg:flex-row lg:gap-x-5 items-center">
          {/* Left Side (Monitors Analysis & Elipsis) */}
-        <div className="w-full sm:w-2/3 lg:w-1/3 shadow-2xl rounded-3xl font-semibold px-4 pb-10">
+        <div className="w-full lg:w-1/3 shadow-2xl rounded-3xl font-semibold px-4 pb-10">
           <h6 className="lg:mx-3 my-4 sm:px-4 py-6 sm:py-4 lg:px-1 lg:py-1 font-bold text-2xl text-center sm:text-left">Total Monitors</h6>
           <div className="flex flex-col-reverse sm:flex-row justify-evenly items-center gap-y-8">
             <div>
