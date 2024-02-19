@@ -10,7 +10,7 @@ import google_cloud from "../../../assets/Banner/google-cloud.png";
 import right_arrow from "../../../assets/Banner/right-arrow.png";
 export default function Meta() {
   return (
-    <div className="flex flex-col md:flex-row gap-x-5 m-8 p-4 items-center">
+    <div className="flex flex-col lg:flex-row gap-x-5 gap-y-12 m-8 p-4 items-center">
       {/* Left Section */}
       <div className="bg-gradient-to-br from-[#ffffff33] to-[#00a76f33] p-8 py-4 rounded-3xl mb-4 md:mb-0 md:basis-1/4">
         <div className="flex gap-x-4 items-center text-[#004b50]">
@@ -27,7 +27,7 @@ export default function Meta() {
       </div>
 
       {/* Right Section */}
-      <div className="flex flex-col md:flex-row gap-x-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-x-12 lg:gap-x-6 gap-y-6">
         {/* Meta */}
         <div className="mb-4 md:w-1/3">
           <div className="flex justify-around gap-x-5 items-center">

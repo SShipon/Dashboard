@@ -7,6 +7,7 @@ import {
   Tooltip,
   XAxis,
   YAxis,
+  ResponsiveContainer
 } from "recharts";
 
 export default function Rechart() {
@@ -57,16 +58,18 @@ export default function Rechart() {
 
   return (
     <div className="my-8">
-      <div className="w-full md:w-3/4 lg:w-1/2 xl:w-1/3">
-        <LineChart width={730} height={250} data={data} margin={{}}>
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" />
-          <YAxis />
-          <Tooltip />
-          <Legend />
-          <Line type="monotone" dataKey="pv" stroke="#8884d8" />
-          <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
-        </LineChart>
+      <div className="w-full">
+        <ResponsiveContainer width="100%" height={250}>
+          <LineChart width={780} height={250} data={data} margin={{}}>
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis dataKey="name" />
+            <YAxis />
+            <Tooltip />
+            <Legend />
+            <Line type="monotone" dataKey="pv" stroke="#8884d8" />
+            <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
+          </LineChart>
+        </ResponsiveContainer>
       </div>
     </div>
   );

@@ -10,35 +10,35 @@ export default function Analytics() {
       <div className="my-4">
         <CreateMonitor />
       </div>
-      <div class="relative overflow-x-auto  sm:rounded-lg">
-        <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-          <thead class="text-xs text-gray-700 uppercase border-b ">
+      <div className="relative overflow-x-auto  sm:rounded-lg">
+        <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+          <thead className="text-xs text-gray-700 uppercase border-b ">
             <tr>
-              <th scope="col" class="px-6 py-3">
+              <th scope="col" className="px-6 py-3">
                 <span className="text-black"> Status Monitor Name</span>
               </th>
-              <th scope="col" class="px-6 py-3">
+              <th scope="col" className="px-6 py-3">
                 <span className="text-black"> Uptime</span>
               </th>
-              <th scope="col" class="px-6 py-3">
+              <th scope="col" className="px-6 py-3">
                 <span className="text-black">Load Average</span>
               </th>
-              <th scope="col" class="px-6 py-3">
+              <th scope="col" className="px-6 py-3">
                 <span className="text-black"> Locations</span>
               </th>
-              <th scope="col" class="px-6 py-3">
+              <th scope="col" className="px-6 py-3">
                 <span className="text-black"> Type</span>
               </th>
-              <th scope="col" class="px-6 py-3">
+              <th scope="col" className="px-6 py-3">
                 <span className="text-black">Frequency</span>
               </th>
             </tr>
           </thead>
           <tbody>
-            <tr class="border-b-[1px]">
+            <tr className="border-b-[1px]">
               <th
                 scope="row"
-                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
               >
                 <div className="flex items-center">
                   <div className="bg-green w-[14px] h-[14px] rounded-full"></div>
@@ -47,13 +47,13 @@ export default function Analytics() {
                   </div>
                 </div>
               </th>
-              <td class="px-6 py-4">
+              <td className="px-6 py-4">
                 <button className="btn host-btn btn-xs px-6">99%</button>
               </td>
-              <td class="px-6 py-4">
+              <td className="px-6 py-4">
                 <button className="btn host-btn btn-xs px-6"> 230.ms</button>
               </td>
-              <td class="px-6 py-4">
+              <td className="px-6 py-4">
                 <div className="flex">
                   <div className="relative left-1">
                     {" "}
@@ -64,10 +64,10 @@ export default function Analytics() {
                   </div>
                 </div>
               </td>
-              <td class="px-6 py-4">
+              <td className="px-6 py-4">
                 <button className="btn host-btn btn-xs px-6">HTTP</button>
               </td>
-              <td class="px-6 py-4">
+              <td className="px-6 py-4">
                 <div className="flex gap-8">
                   <div>
                     <button className="btn host-btn btn-xs px-6">5.m</button>
@@ -78,10 +78,10 @@ export default function Analytics() {
                 </div>
               </td>
             </tr>
-            <tr class="border-b border-gray">
+            <tr className="border-b border-gray">
               <th
                 scope="row"
-                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
               >
                 <div className="flex items-center">
                   <div className="bg-red w-[14px] h-[14px] rounded-full"></div>
@@ -90,13 +90,13 @@ export default function Analytics() {
                   </div>
                 </div>
               </th>
-              <td class="px-6 py-4">
+              <td className="px-6 py-4">
                 <button className="btn host-btn btn-xs px-6">79%</button>
               </td>
-              <td class="px-6 py-4">
+              <td className="px-6 py-4">
                 <button className="btn host-btn btn-xs px-6">500.ms</button>
               </td>
-              <td class="px-6 py-4">
+              <td className="px-6 py-4">
                 <div className="flex item-center">
                   <div className="relative left-1 ">
                     {" "}
@@ -115,10 +115,10 @@ export default function Analytics() {
                   </div>
                 </div>
               </td>
-              <td class="px-6 py-4">
+              <td className="px-6 py-4">
                 <button className="btn host-btn btn-xs px-6">HTTP</button>
               </td>
-              <td class="px-6 py-4">
+              <td className="px-6 py-4">
                 <div className="flex gap-8">
                   <div>
                     {" "}
@@ -131,10 +131,10 @@ export default function Analytics() {
                 </div>
               </td>
             </tr>
-            <tr class="border-b border-gray">
+            <tr className="border-b border-gray">
               <th
                 scope="row"
-                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
               >
                 <div className="flex items-center">
                   <div className="bg-yellowColor w-[14px] h-[14px] rounded-full"></div>
@@ -143,23 +143,23 @@ export default function Analytics() {
                   </div>
                 </div>
               </th>
-              <td class="px-6 py-4">
+              <td className="px-6 py-4">
                 <button className="btn host-btn btn-xs px-6">79%</button>
               </td>
-              <td class="px-6 py-4">
+              <td className="px-6 py-4">
                 <button className="btn host-btn btn-xs px-6">500.ms</button>
               </td>
-              <td class="px-6 py-4">
+              <td className="px-6 py-4">
                 <div className="flex relative item-center">
                   <div className="absolute -top-4 ml-4">
                     <img src={canada} alt="" />
                   </div>
                 </div>
               </td>
-              <td class="px-6 py-4">
+              <td className="px-6 py-4">
                 <button className="btn host-btn btn-xs px-6">HTTP</button>
               </td>
-              <td class="px-6 py-4">
+              <td className="px-6 py-4">
                 <div className="flex gap-8">
                   <div>
                     <button className="btn host-btn btn-xs px-6">5.m</button>
@@ -171,98 +171,98 @@ export default function Analytics() {
               </td>
             </tr>
 
-            <tr class="border-b border-gray">
+            <tr className="border-b border-gray">
               <th
                 scope="row"
-                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
               >
                 <div className="flex items-center">
                   <div className="ml-4"></div>
                 </div>
               </th>
-              <td class="px-6 py-4"></td>
-              <td class="px-6 py-4"></td>
-              <td class="px-6 py-4">
+              <td className="px-6 py-4"></td>
+              <td className="px-6 py-4"></td>
+              <td className="px-6 py-4">
                 <div className="flex relative item-center"></div>
               </td>
-              <td class="px-6 py-4"></td>
-              <td class="px-6 py-4">
+              <td className="px-6 py-4"></td>
+              <td className="px-6 py-4">
                 <div className="flex gap-8"></div>
               </td>
             </tr>
-            <tr class="border-b border-gray">
+            <tr className="border-b border-gray">
               <th
                 scope="row"
-                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
               >
                 <div className="flex items-center">
                   <div className="ml-4"></div>
                 </div>
               </th>
-              <td class="px-6 py-4"></td>
-              <td class="px-6 py-4"></td>
-              <td class="px-6 py-4">
+              <td className="px-6 py-4"></td>
+              <td className="px-6 py-4"></td>
+              <td className="px-6 py-4">
                 <div className="flex relative item-center"></div>
               </td>
-              <td class="px-6 py-4"></td>
-              <td class="px-6 py-4">
+              <td className="px-6 py-4"></td>
+              <td className="px-6 py-4">
                 <div className="flex gap-8"></div>
               </td>
             </tr>
-            <tr class="border-b border-gray">
+            <tr className="border-b border-gray">
               <th
                 scope="row"
-                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
               >
                 <div className="flex items-center">
                   <div className="ml-4"></div>
                 </div>
               </th>
-              <td class="px-6 py-4"></td>
-              <td class="px-6 py-4"></td>
-              <td class="px-6 py-4">
+              <td className="px-6 py-4"></td>
+              <td className="px-6 py-4"></td>
+              <td className="px-6 py-4">
                 <div className="flex relative item-center"></div>
               </td>
-              <td class="px-6 py-4"></td>
-              <td class="px-6 py-4">
+              <td className="px-6 py-4"></td>
+              <td className="px-6 py-4">
                 <div className="flex gap-8"></div>
               </td>
             </tr>
-            <tr class="border-b border-gray">
+            <tr className="border-b border-gray">
               <th
                 scope="row"
-                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
               >
                 <div className="flex items-center">
                   <div className="ml-4"></div>
                 </div>
               </th>
-              <td class="px-6 py-4"></td>
-              <td class="px-6 py-4"></td>
-              <td class="px-6 py-4">
+              <td className="px-6 py-4"></td>
+              <td className="px-6 py-4"></td>
+              <td className="px-6 py-4">
                 <div className="flex relative item-center"></div>
               </td>
-              <td class="px-6 py-4"></td>
-              <td class="px-6 py-4">
+              <td className="px-6 py-4"></td>
+              <td className="px-6 py-4">
                 <div className="flex gap-8"></div>
               </td>
             </tr>
-            <tr class="border-b border-gray">
+            <tr className="border-b border-gray">
               <th
                 scope="row"
-                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
               >
                 <div className="flex items-center">
                   <div className="ml-4"></div>
                 </div>
               </th>
-              <td class="px-6 py-4"></td>
-              <td class="px-6 py-4"></td>
-              <td class="px-6 py-4">
+              <td className="px-6 py-4"></td>
+              <td className="px-6 py-4"></td>
+              <td className="px-6 py-4">
                 <div className="flex relative item-center"></div>
               </td>
-              <td class="px-6 py-4"></td>
-              <td class="px-6 py-4">
+              <td className="px-6 py-4"></td>
+              <td className="px-6 py-4">
                 <div className="flex gap-8"></div>
               </td>
             </tr>
@@ -279,7 +279,7 @@ export default function Analytics() {
           <div className="flex gap-4">
             <div>
               <button className="btn host-btn btn-sm">
-                <i class="fa-solid fa-angle-left"></i>
+                <i className="fa-solid fa-angle-left"></i>
               </button>
             </div>
             <div>
@@ -307,7 +307,7 @@ export default function Analytics() {
             </div>
             <div>
               <button className="btn host-btn btn-sm">
-                <i class="fa-solid fa-chevron-right"></i>
+                <i className="fa-solid fa-chevron-right"></i>
               </button>
             </div>
           </div>
