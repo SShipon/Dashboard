@@ -9,6 +9,8 @@ import {
   YAxis,
 } from "recharts";
 
+import "./Rechart.css";
+
 export default function Rechart() {
   const data = [
     {
@@ -55,9 +57,10 @@ export default function Rechart() {
     },
   ];
 
+
   return (
     <div className="my-8">
-      <div className="w-full md:w-3/4 lg:w-1/2 xl:w-1/3">
+      <div className="chart-container">
         <LineChart width={730} height={250} data={data} margin={{}}>
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="name" />
