@@ -1,4 +1,3 @@
-import React from "react";
 import filter from "../../../assets/Banner/filter.png";
 import path from "../../../assets/Banner/global-uptime-path.svg";
 import { socials } from "../../../data/data";
@@ -7,21 +6,23 @@ export default function Meta() {
   const socialData = socials.map(social => (
     <>
       <div className="mb-4 text-xs">
-        <div className="flex justify-around gap-x-3 items-center">
-          <div className="flex items-center gap-x-1.5">
+        <div className="flex justify-between gap-x-2 items-center">
+          <div className="flex items-center">
             <img src={social.logo_image} alt={social.title} />
-            <h5 className="font-bold text-xl">{social.title}</h5>
+            <h5 className="font-bold text-lg">{social.title}</h5>
           </div>
-          <img className="w-2/5" src={social.cloud_image} alt="meta" />
+          <img className="w-1/3" src={social.cloud_image} alt="meta" />
         </div>
-        <div className="flex justify-around gap-x-3 pt-5">
+        <div className="flex justify-between pt-5">
           <div>
             <div className="pb-3">Uptime</div>
             <div>Load Average</div>
           </div>
           <div>
             <h6 className="font-bold pb-3">{social.uptime}%</h6>
-            <p className="text-red-600">{social.average_loading_time}ms &darr;</p>
+            <p className={`${social.average_loading_time < 500 ? 'text-green' : 'text-red'}`}>
+              {social.average_loading_time}ms &darr;
+            </p>
           </div>
         </div>
       </div>

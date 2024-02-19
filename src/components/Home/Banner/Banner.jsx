@@ -11,13 +11,13 @@ export default function Banner() {
             <p className='absolute bottom-2 text-3xl font-bold'>&rarr;</p>
           </div>
           <div>
-            <img src={rocket} alt="rocket" className='rounded-md' />
+            <img src={rocket} alt="rocket" className='rounded-md ' />
           </div>
         </div>
         {/* Wealth Creation */}
-        <div className='p-4 shadow-xl rounded-2xl '>
+        <div className='p-4 shadow-xl rounded-2xl'>
           <div className='text-white rounded-2xl relative'>
-            <img className='w-full' src={wealth} alt="wealth-creation" />
+            <img src={wealth} alt="wealth-creation" />
             <div>
               <h3 className='absolute left-4 top-2 font-bold text-xl pb-4 pt-2'>Lorem</h3>
               <p className='absolute left-4 top-12'>Lorem ipsum bla bla</p>

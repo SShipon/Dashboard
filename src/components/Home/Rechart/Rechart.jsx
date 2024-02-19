@@ -58,9 +58,9 @@ export default function Rechart() {
 
   return (
     <div className="my-8">
-      <div className="w-full h-full">
+      <div className="w-2/3 h-full">
         {/* <ResponsiveContainer width="100%" height={250}> */}
-          <LineChart width={730} height={250} data={data} margin={{}}>
+          <LineChart width={560} height={250} data={data} margin={{}}>
             <CartesianGrid strokeDasharray="3 3" />
             <XAxis dataKey="name" />
             <YAxis />
