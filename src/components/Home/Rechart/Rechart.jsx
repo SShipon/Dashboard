@@ -9,8 +9,6 @@ import {
   YAxis,
 } from "recharts";
 
-import "./Rechart.css";
-
 export default function Rechart() {
   const data = [
     {
@@ -57,20 +55,51 @@ export default function Rechart() {
     },
   ];
 
+  // console.log(innerWidth);
+
+  let lineChart;
+
+  if(innerWidth < 640) {
+    lineChart = (
+      <LineChart width={360} height={120} data={data} margin={{}}>
+        <CartesianGrid strokeDasharray="3 3" />
+        <XAxis dataKey="name" />
+        <YAxis />
+        <Tooltip />
+        <Legend />
+        <Line type="monotone" dataKey="pv" stroke="#8884d8" />
+        <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
+      </LineChart>
+    )
+  } else if(innerWidth < 768) {
+    lineChart = (
+      <LineChart width={530} height={180} data={data} margin={{}}>
+        <CartesianGrid strokeDasharray="3 3" />
+        <XAxis dataKey="name" />
+        <YAxis />
+        <Tooltip />
+        <Legend />
+        <Line type="monotone" dataKey="pv" stroke="#8884d8" />
+        <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
+      </LineChart>
+    )
+  } else {
+    lineChart = (
+      <LineChart width={720} height={240} data={data} margin={{}}>
+        <CartesianGrid strokeDasharray="3 3" />
+        <XAxis dataKey="name" />
+        <YAxis />
+        <Tooltip />
+        <Legend />
+        <Line type="monotone" dataKey="pv" stroke="#8884d8" />
+        <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
+      </LineChart>
+    )
+  }
 
   return (
     <div className="my-8">
-      <div className="chart-container">
-        <LineChart width={730} height={250} data={data} margin={{}}>
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" />
-          <YAxis />
-          <Tooltip />
-          <Legend />
-          <Line type="monotone" dataKey="pv" stroke="#8884d8" />
-          <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
-        </LineChart>
-      </div>
+      {lineChart}
     </div>
   );
 }

@@ -54,7 +54,7 @@ export default function DataMonitorUi() {
   ];
   return (
     <div className="ml-10 p-10">
-      <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-6">
         {monitors.map((monitor, index) => (
           <DataMonitor
             key={monitor.id}
