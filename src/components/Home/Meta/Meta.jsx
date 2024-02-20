@@ -38,7 +38,7 @@ export default function Meta() {
   ))
 
   return (
-    <div className="flex flex-col  lg:flex-row gap-x-2 sm:gap-x-5 gap-y-12 my-8 py-4 items-center">
+    <div className="flex flex-col  lg:flex-row gap-x-2 sm:gap-x-5 gap-y-12 my-8 py-4 items-center justify-evenly">
       {/* Left Section */}
       <div className="bg-gradient-to-br from-[#ffffff33] to-[#00a76f33] px-3 sm:px-6 py-4 rounded-3xl mb-4 md:mb-0 md:basis-1/4 mr-[25%] sm:mr-0">
         <div className="flex gap-x-1 sm:gap-x-3 items-center text-[#004b50]">

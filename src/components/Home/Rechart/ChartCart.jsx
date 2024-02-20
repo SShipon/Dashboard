@@ -4,8 +4,7 @@ import Rechart from "./Rechart";
 export default function ChartCart() {
   return (
     <div className="mt-10">
-      <div className="lg:flex">
-        <div className="flex flex-col lg:flex-row items-center gap-y-5">
+        <div className="flex flex-col justify-evenly lg:flex-row items-center gap-y-5">
           <div className="lg:basis-1/3 shadow-2xl pl-4 pt-0 pr-4 pb-4 rounded-3xl">
             <h6 className=" font-bold text-2xl">Total Monitors</h6>
             <div className="flex justify-evenly items-center">
@@ -43,6 +42,6 @@ export default function ChartCart() {
           </div>
         </div>
       </div>
-    </div>
+  
   );
 }

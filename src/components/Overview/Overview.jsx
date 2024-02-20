@@ -4,6 +4,8 @@ import Banner from "../Home/Banner/Banner";
 import Meta from "../Home/Meta/Meta";
 import ChartCart from "../Home/Rechart/ChartCart";
 import Recent from "../Home/Recent/Recent";
+import MiniChart from "../Home/Mini/MiniChart";
+
 
 export default function Overview() {
   return (
@@ -20,7 +22,7 @@ export default function Overview() {
          <ChartCart/>
         <Recent />
       <div className="my-8">
-       
+     <MiniChart/>
       </div>
     </div>
   );
