@@ -24,13 +24,13 @@ const Sidebar = () => {
   const items = (
     <ul className="nav-list">
       {navigationLinks.map((navLink, index) => {
-        if (index === 0) {
+        if (index == 0) {
           return (
             <Link to="/overview">
               <EachNavLink key={navLink.id} navLink={navLink} />
             </Link>
           );
-        } else if (index === 1) {
+        } else if (index == 1) {
           return (
             <Link to="/monitors">
               <EachNavLink key={navLink.id} navLink={navLink} />

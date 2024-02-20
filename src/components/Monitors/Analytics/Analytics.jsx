@@ -6,31 +6,35 @@ import more from "../../../assets/logo/+ MORE.png";
 import CreateMonitor from "../CreateMonitor/CreateMonitor";
 export default function Analytics() {
   return (
-    <div className="ml-10 shadow p-10">
+    <div className=" flex flex-col flex-wrap shadow p-4 ">
       <div className="my-4">
         <CreateMonitor />
       </div>
-      <div className="relative overflow-x-auto  sm:rounded-lg">
-        <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-          <thead className="text-xs text-gray-700 uppercase border-b ">
+
+      <div  className=" flex justify-between">
+      <div className="lg:w-full md:w-full w-[300px]">
+     <div className="overflow-x-auto">
+        <table className="table">
+          <thead className=" uppercase border-b ">
             <tr>
               <th scope="col" className="px-6 py-3">
-                <span className="text-black"> Status Monitor Name</span>
+                <span className=" text-sm"> Status </span>
+                <span>Monitor Name</span>
               </th>
               <th scope="col" className="px-6 py-3">
-                <span className="text-black"> Uptime</span>
+                <span className=""> Uptime</span>
               </th>
               <th scope="col" className="px-6 py-3">
-                <span className="text-black">Load Average</span>
+                <span className="">Load Average</span>
               </th>
               <th scope="col" className="px-6 py-3">
-                <span className="text-black"> Locations</span>
+                <span className=""> Locations</span>
               </th>
               <th scope="col" className="px-6 py-3">
-                <span className="text-black"> Type</span>
+                <span className=""> Type</span>
               </th>
               <th scope="col" className="px-6 py-3">
-                <span className="text-black">Frequency</span>
+                <span className="text-textColor">Frequency</span>
               </th>
             </tr>
           </thead>
@@ -60,7 +64,7 @@ export default function Analytics() {
                     <img src={china} alt="" />
                   </div>
                   <div className="absolute z-10 ml-6">
-                    <img src={canada} alt="" />
+                    <img  className="w-[100%]" src={canada} alt="" />
                   </div>
                 </div>
               </td>
@@ -100,17 +104,17 @@ export default function Analytics() {
                 <div className="flex item-center">
                   <div className="relative left-1 ">
                     {" "}
-                    <img src={china} alt="" />
+                    <img  className="w-[100%]" src={china} alt="" />
                   </div>
                   <div className="absolute z-10 ml-4">
-                    <img src={africa} alt="" />
+                    <img  className="w-[100%]" src={africa} alt="" />
                   </div>
                   <div className="absolute z-10 ml-8">
                     <img src={canada} alt="" />
                   </div>
                   <div className="flex">
                     <div className="absolute ml-10 mt-2">
-                      <img src={more} alt="" />
+                      <img  className="w-[100%]" src={more} alt="" />
                     </div>
                   </div>
                 </div>
@@ -152,7 +156,7 @@ export default function Analytics() {
               <td className="px-6 py-4">
                 <div className="flex relative item-center">
                   <div className="absolute -top-4 ml-4">
-                    <img src={canada} alt="" />
+                    <img className="w-[100%]" src={canada} alt="" />
                   </div>
                 </div>
               </td>
@@ -269,14 +273,20 @@ export default function Analytics() {
           </tbody>
         </table>
       </div>
+     </div>
+      </div>
+
+      
       <div>
-        <div className="my-4 flex items-center justify-between">
+        <div className="my-4 flex  lg:flex-row flex-col lg:justify-between ">
+
           <div className="">
-            <span className="text-gray-300 text-xs">
+            <span className="text-gray-300 text-xs text-center my-4 lg:my-0">
               Showing data 1 to 8 of 256K entries
             </span>
           </div>
-          <div className="flex gap-4">
+
+          <div className="flex gap-1 lg:gap-4">
             <div>
               <button className="btn host-btn btn-sm">
                 <i className="fa-solid fa-angle-left"></i>
@@ -311,6 +321,7 @@ export default function Analytics() {
               </button>
             </div>
           </div>
+
         </div>
       </div>
     </div>

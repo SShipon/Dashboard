@@ -12,16 +12,9 @@
   --transition-default: all 300ms ease-in-out;
 }
 
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
-}
-html {
-  scroll-behavior: smooth;
-}
 body {
-  position: relative;
   font-family: var(--font-family-bai);
+  overflow-x: hidden;
 }
 
 ul {

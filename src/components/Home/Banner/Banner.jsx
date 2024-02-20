@@ -1,3 +1,4 @@
+import React from 'react'
 import rocket from '../../../assets/Banner/rocket-white.png'
 import wealth from '../../../assets/Banner/wealth-creation (3).png'
 export default function Banner() {
@@ -29,3 +30,7 @@ export default function Banner() {
     </div>
   )
 }
+
+
+
+
