@@ -12,7 +12,7 @@ const Recent = () => {
   return (
  
     <div className='mt-10'>
-    <div className=" flex flex-col lg:flex-row justify-between items-center gap-2">
+    <div className=" flex flex-col lg:flex-row justify-evenly gap-2 mx-10 items-center ">
       <div className=" flex justify-between flex-col shadow-lg p-4 rounded-lg basis-7/12">
         <div className=" flex justify-between ">
           <div>

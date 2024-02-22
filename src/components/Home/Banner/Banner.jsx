@@ -5,7 +5,7 @@ export default function Banner() {
   return (
     <div className='max-w-[1280px] mx-auto'>
       {/* Welcome & Rocket */}
-      <div className='flex flex-col lg:flex-row gap-x-3 lg:gap-x-5 my-8 py-4 items-center'>
+      <div className='flex flex-col lg:flex-row gap-x-3 lg:gap-x-5 my-8 py-4 justify-evenly items-center'>
         <div className='flex gap-x-2 lg:basis-2/3 justify-between p-4 shadow-xl rounded-2xl'>
           <div className='font-bold text-xl pt-8 pl-2 md:pl-5 relative'>
             Welcome X
