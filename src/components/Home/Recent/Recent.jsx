@@ -11,7 +11,7 @@ import red from '../../../assets/Banner/bell-red.png'
 const Recent = () => {
   return (
  
-    <div className='mt-10'>
+    <div className='mt-10 '>
     <div className="recent-container flex flex-col lg:flex-row justify-between items-center gap-2">
       <div className="recent-monitors-left flex justify-between flex-col shadow-lg p-4 rounded-lg basis-7/12">
         <div className="recent-monitors-box flex justify-between ">
@@ -27,7 +27,7 @@ const Recent = () => {
         <div className=" flex justify-between">
           <div className="lg:w-full md:w-full w-[300px]">
             <div className="overflow-x-auto">
-              <table className="table">
+              <table class="table">
                 <thead>
                   <tr>
                     <th>Name</th>
@@ -36,13 +36,13 @@ const Recent = () => {
                     <th>Uptime</th>
                   </tr>
                 </thead>
-                <tbody className="bg-white divide-y divide-gray-200">
+                <tbody class="bg-white divide-y divide-gray-200">
                   <tr>
                     <td className="flex gap-5 items-center">
                       <img src={Shopify} alt="" />
                       <h2>Shopify</h2>
                     </td>
-                    <td className="px-6 py-4">
+                    <td class="px-6 py-4">
                       <div className="flex">
                         <div className="relative left-1">
                           {' '}
@@ -69,7 +69,7 @@ const Recent = () => {
                       <img src={Atlassian} alt="" />
                       <h2>Atlassian</h2>
                     </td>
-                    <td className="px-6 py-4">
+                    <td class="px-6 py-4">
                       <div className="flex">
                         <div className="relative left-1">
                           {' '}
@@ -93,7 +93,7 @@ const Recent = () => {
                       <img src={Slack} alt="" />
                       <h2>Slack</h2>
                     </td>
-                    <td className="px-6 py-4">
+                    <td class="px-6 py-4">
                       <div className="flex">
                         <div className="relative left-1">
                           {' '}
@@ -120,7 +120,7 @@ const Recent = () => {
                       <img src={Spotify} alt="" />
                       <h2>Shopify</h2>
                     </td>
-                    <td className="px-6 py-4">
+                    <td class="px-6 py-4">
                       <div className="flex">
                         <div className="relative left-1">
                           {' '}
@@ -151,7 +151,7 @@ const Recent = () => {
               Incidents History{' '}
             </h1>
             <h2 className="text-base font-normal leading-5 tracking-tight text-left text-gray-700 mt-2">
-              <i className="fa-solid fa-arrow-up text-[#82D616]"></i>{' '}
+              <i class="fa-solid fa-arrow-up text-[#82D616]"></i>{' '}
               <span className="text-[#67748E] font-semibold leading-5 tracking-tight text-left mr-1">
                 24%
               </span>{' '}

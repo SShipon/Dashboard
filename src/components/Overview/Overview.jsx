@@ -17,11 +17,13 @@ export default function Overview() {
       </div>
        <Banner />
         <Meta></Meta>
-         <ChartCart/>
-        <Recent />
-      <div className="my-8">
-       
+       <div className="py-8">
+       <ChartCart/>
+       </div>
+      <div className="mt-32">
+      <Recent />
       </div>
+     
     </div>
   );
 }

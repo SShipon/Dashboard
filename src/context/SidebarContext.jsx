@@ -1,5 +1,5 @@
 import { createContext, useReducer } from "react";
-import reducer from "../reducer/sidebarReducer";
+import reducer from "../reducer/SidebarReducer";
 import PropTypes from 'prop-types';
 
 const initialState = {
