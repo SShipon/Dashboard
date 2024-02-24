@@ -5,12 +5,12 @@ import DataMonitorUi from "../DataMonitorUi/DataMonitorUi";
 export default function Card() {
   return (
     <div className="lg:flex">
-     <div class="lg:flex lg:flex-row">
+     <div className="lg:flex lg:flex-row">
   
-    <div class="lg:basis-1/9">
+    <div className="lg:basis-1/9">
        <DataMonitorUi />
     </div>
-    <div class="lg:basis-1/4">
+    <div className="lg:basis-1/4">
       <div className="flex my-8 justify-center items-center ">
       <div className="relative">
   <div className="z-0">
@@ -21,7 +21,7 @@ export default function Card() {
     <span className="text-text-xs	 md:text-text-xs lg:text-xs">
       Wealth creation is an evolutionarily recent positive-sum game. It is all about who takes the opportunity first.
     </span>
-    <button>Read More <i class="fa-solid fa-arrow-right"></i></button>
+    <button>Read More <i className="fa-solid fa-arrow-right"></i></button>
   </div>
  
 </div>

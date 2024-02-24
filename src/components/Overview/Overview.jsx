@@ -4,6 +4,8 @@ import Banner from "../Home/Banner/Banner";
 import Meta from "../Home/Meta/Meta";
 import ChartCart from "../Home/Rechart/ChartCart";
 import Recent from "../Home/Recent/Recent";
+import MiniChart from "../Home/Mini/MiniChart";
+
 
 export default function Overview() {
   return (
@@ -17,11 +19,18 @@ export default function Overview() {
       </div>
        <Banner />
         <Meta></Meta>
+<<<<<<< HEAD
        <div className="py-8">
        <ChartCart/>
        </div>
       <div className="mt-32">
       <Recent />
+=======
+         <ChartCart/>
+        <Recent />
+      <div className="my-8">
+     <MiniChart/>
+>>>>>>> 0b739471ccdc80a98d8089d0c58acb1fa072bcbb
       </div>
      
     </div>

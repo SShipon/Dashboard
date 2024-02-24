@@ -53,7 +53,11 @@ export default function DataMonitorUi() {
     },
   ];
   return (
+<<<<<<< HEAD
     <div className="lg:ml-10 lg:p-10">
+=======
+    <div className="ml-10 p-10">
+>>>>>>> 0b739471ccdc80a98d8089d0c58acb1fa072bcbb
       <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-6">
         {monitors.map((monitor, index) => (
           <DataMonitor
