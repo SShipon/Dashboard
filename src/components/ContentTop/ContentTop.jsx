@@ -22,11 +22,11 @@ const ContentTop = () => {
         <div className=" flex gap-3">
           <div className="nav-settings">
             <img src={settings} alt="" />
-            {/* <i className="fa-solid fa-gear"></i> */}
+            {/* <i class="fa-solid fa-gear"></i> */}
           </div>
           <div className="nav-notification">
             <img src={notification} alt="" />
-            {/* <i className="fa-regular fa-bell"></i> */}
+            {/* <i class="fa-regular fa-bell"></i> */}
           </div>
           <div className="nav-userImage">
             <div

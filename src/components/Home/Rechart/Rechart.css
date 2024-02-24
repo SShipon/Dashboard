@@ -1,12 +1,5 @@
 @media (max-width: 830px) {
-<<<<<<< HEAD
   .widthchart {
     width: 100% !important;
   }
 }
-=======
-    .chart__container {
-      width: 100% !important;
-    }
-  }
->>>>>>> 0b739471ccdc80a98d8089d0c58acb1fa072bcbb

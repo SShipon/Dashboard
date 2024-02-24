@@ -1,13 +1,11 @@
 import React from 'react';
 import {
   CartesianGrid,
+  Legend,
   Line,
   LineChart,
-<<<<<<< HEAD
   ResponsiveContainer,
   Tooltip,
-=======
->>>>>>> 0b739471ccdc80a98d8089d0c58acb1fa072bcbb
   XAxis,
   YAxis,
 } from 'recharts';
@@ -58,17 +56,11 @@ export default function Rechart() {
     },
   ];
 
-<<<<<<< HEAD
 
 
   return (
     <div>
       <LineChart className='widthchart' width={700} height={300} data={data}>
-=======
-  return (
-    <div>
-      <LineChart className='chart__container' width={700} height={300} data={data}>
->>>>>>> 0b739471ccdc80a98d8089d0c58acb1fa072bcbb
         <XAxis dataKey="name" />
         <YAxis />
         <CartesianGrid stroke="#eee" strokeDasharray="5 5" />
