@@ -1,20 +1,26 @@
 import React from "react";
 // first card
-import icons3 from "../../../assets/Monitor/SVG.png";
+
 import icons1 from "../../../assets/Monitor/Frame.png";
 // second card
 import icons from "../../../assets/Monitor/Frame (1).png";
-import icons4 from "../../../assets/Monitor/SVG (1).png";
+
 // last card
 import icons2 from "../../../assets/Monitor/Img.png";
-import icons5 from "../../../assets/Monitor/SVG (2).png";
+
 import DataMonitor from "./DataMonitor";
+import ProgressiveLineChart from "../../Home/Meta/ProgressiveLineChart";
+import GreenChart from "../Chart/GreenChart";
+import RedChart from "../Chart/RedChart";
+import YellowChart from "../Chart/YellowChart";
 export default function DataMonitorUi() {
   const monitors = [
     {
+      
       id: 1,
       name: "Total Monitors",
       title: "113",
+
       // Additional styles for the first card (index 0)
       style: {
         fontSize: "28px",
@@ -33,27 +39,27 @@ export default function DataMonitorUi() {
     {
       id: 2,
       img: icons1,
-      img1: icons3,
       name: "Healthy",
       title: "90",
+      chart:<GreenChart />
     },
     {
       id: 3,
       img: icons,
-      img1: icons4,
       name: "Down",
       title: "8",
+      chart:<RedChart />
     },
     {
       id: 4,
       img: icons2,
-      img1: icons5,
       name: "Pause",
       title: "15",
+      chart:<YellowChart />
     },
   ];
   return (
-    <div className="lg:ml-10 lg:p-10">
+    <div className="lg:my-10 my-20">
       <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-6">
         {monitors.map((monitor, index) => (
           <DataMonitor

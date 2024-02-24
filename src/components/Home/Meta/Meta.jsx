@@ -52,9 +52,9 @@ export default function Meta() {
   return (
     <div className="mt-10">
       <div>
-        <div class="lg:flex justify-evenly lg:flex-row items-center">
+        <div class="lg:flex justify-evenly lg:flex-row items-center gap-1">
           <div class="lg:basis-1/4">
-            <div className="bg-gradient-to-br from-[#ffffff33] to-[#00a76f33] p-4 py-4 rounded-3xl mb-4 md:mb-0 md:basis-1/4">
+            <div className="bg-gradient-to-br from-[#ffffff33] to-[#00a76f33] rounded-3xl mb-4 md:mb-0 md:basis-1/4 p-4">
               <div className="">
                 <div className="flex justify-between text-textGreen">
                   <h5 className="font-bold text-xs pb-5">Global Uptime</h5>
@@ -83,7 +83,7 @@ export default function Meta() {
                 <div className="flex justify-around gap-x-5 items-center">
                   <div className="flex items-center gap-x-1.5">
                     <img src={meta_logo} alt="meta" />
-                    <h5 className="font-bold text-xl">Meta</h5>
+                    <h5 className="font-bold text-base">Meta</h5>
                   </div>
                   <ProgressiveLineChart></ProgressiveLineChart>
                 </div>
@@ -104,7 +104,7 @@ export default function Meta() {
                 <div className="flex justify-around gap-x-5 items-center">
                   <div className="flex items-center gap-x-1.5">
                     <img src={meta_logo} alt="meta" />
-                    <h5 className="font-bold text-xl">Meta</h5>
+                    <h5 className="font-bold text-base">Meta</h5>
                   </div>
                   {/* <img className="w-2/5" src={meta_cloud} alt="meta" /> */}
                   <ProgressiveLineChart></ProgressiveLineChart>
@@ -126,7 +126,7 @@ export default function Meta() {
                 <div className="flex justify-around gap-x-5 items-center">
                   <div className="flex items-center gap-x-1.5">
                     <img src={microsoft_logo} alt="meta" />
-                    <h5 className="font-bold text-xl">Meta</h5>
+                    <h5 className="font-bold text-base">Microsof</h5>
                   </div>
                   <PosititveChart></PosititveChart>
                   {/* <img className="w-2/5" src={microsoft_cloud} alt="meta" /> */}
@@ -148,7 +148,7 @@ export default function Meta() {
                 <div className="flex justify-around gap-x-5 items-center">
                   <div className="flex items-center gap-x-1.5">
                     <img className="" src={google_logo} alt="meta" />
-                    <h5 className="font-bold text-xl">Meta</h5>
+                    <h5 className="font-bold text-base">Google</h5>
                   </div>
                   <ProgressiveLineChart></ProgressiveLineChart>
                 </div>

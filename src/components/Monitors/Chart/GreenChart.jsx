@@ -2,7 +2,7 @@ import React from 'react';
 import { useEffect, useRef } from 'react';
 import Chart from 'chart.js/auto';
 
-export default function PositiveChart() {
+export default function GreenChart() {
   const chartRef = useRef(null);
 
   useEffect(() => {
@@ -23,9 +23,9 @@ export default function PositiveChart() {
           datasets: [
             {
               label: 'Dataset',
-              data: [65, 59, 80, 81, 56, 55, 40],
-              borderColor: '#00A76F', // Set curve line color
-              borderWidth: 4, // Set border width
+              data: [20, 5, 30, 88, 5, 80, 11, 3],
+              borderColor: '#00A76F', // Set green color
+              borderWidth: 2, // Set border width
               fill: false,
               tension: 0.4,
               pointRadius: 0,
@@ -51,12 +51,9 @@ export default function PositiveChart() {
       });
     }
   }, []);
-
-
-    return (
-      <div>
-        <canvas ref={chartRef} width="150" height="75" />
-      </div>
-    );
+  return (
+    <div>
+      <canvas ref={chartRef} width="46" height="38" />
+    </div>
+  );
 };
-
