@@ -11,7 +11,7 @@ import red from '../../../assets/Banner/bell-red.png'
 const Recent = () => {
   return (
  
-    <div className='mt-10'>
+    <div className='mt-10 '>
     <div className="recent-container flex flex-col lg:flex-row justify-between items-center gap-2">
       <div className="recent-monitors-left flex justify-between flex-col shadow-lg p-4 rounded-lg basis-7/12">
         <div className="recent-monitors-box flex justify-between ">

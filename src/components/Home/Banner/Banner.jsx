@@ -8,13 +8,13 @@ export default function Banner() {
         <div class="grid lg:grid-cols-3 sm:grid-cols-2 gap-4 items-center">
 <div class="col-span-2 gap-2">
 <div className='flex-1 md:flex-2/3 mb-4 md:mb-0'>
- <div className='flex justify-between lg:p-4  sm:p-0  shadow-xl rounded-2xl '>
-   <div className='font-bold text-xl pt-8 pl-5 relative'>
+ <div className='flex justify-between lg:p-4  p-0  shadow-xl rounded-2xl '>
+   <div className='font-bold text-xl pt-8 p-2 relative'>
      <span className='lg:text-4xl text-xs'>Welcome X</span>
      <p className='absolute bottom-2 text-3xl font-bold'>&rarr;</p>
    </div>
    <div>
-     <img src={rocket} alt="rocket" className='rounded-md lg:w-full md:w-[250px] sm:w-[100%]' />
+     <img src={rocket} alt="rocket" className='rounded-md lg:w-full md:w-[250px] w-[100%]' />
    </div>
  </div>
 
