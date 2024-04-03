@@ -10,6 +10,14 @@ import ProgressiveLineChart from "./ProgressiveLineChart";
 import PosititveChart from "./PositiveChart";
 
 export default function Meta() {
+  const metaData =[
+    {id:1,
+    chart:1, 
+    name:"hello world",
+    title:""
+    
+    }
+  ]
   const data = {
     labels: [
       moment().subtract(5, 'days').format('MMM D'),

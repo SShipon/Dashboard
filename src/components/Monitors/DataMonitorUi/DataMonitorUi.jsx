@@ -36,6 +36,7 @@ export default function DataMonitorUi() {
         // Add any other title styles you want to customize
       },
     },
+    
     {
       id: 2,
       img: icons1,

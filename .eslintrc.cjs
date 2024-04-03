@@ -1,10 +1,11 @@
 module.exports = {
   root: true,
-  env: { browser: true, es2020: true, module:true },
+  env: { browser: true, es2020: true, Node:true },
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
+    'plugin:react/recommended',
     'plugin:react-hooks/recommended',
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],

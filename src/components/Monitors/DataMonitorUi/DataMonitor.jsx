@@ -4,7 +4,7 @@ export default function DataMonitor({ monitor, style, titleStyle }) {
   console.log(style);
 
   console.log(monitor);
-  const { name, title, img, img1 ,chart} = monitor;
+  const { name, title, img,chart} = monitor;
   return (
     <div className=" shadow p-4 rounded-md">
       <div className="flex lg:justify-center items-center justify-evenly ">

@@ -4,6 +4,8 @@ import "./Monitors.css";
 import Analytics from "./Analytics/Analytics";
 import ContentTop from "../ContentTop/ContentTop";
 
+
+
 export default function Monitors() {
   return (
     <div className="main-content overflow-x-hidden">
@@ -16,6 +18,7 @@ export default function Monitors() {
       </div>
       <Card />
       <Analytics />
+    
     </div>
   );
 }
